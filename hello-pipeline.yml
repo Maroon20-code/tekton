@@ -14,7 +14,7 @@ spec:
           workspace: myworkspace
       params:
         - name: url
-          value: https://github.com/Maroon20-code/tekton
+          value: https://github.com/Maroon20-code/tekton.git
         - name: deleteExisting
           value: "true"
     - name: build
