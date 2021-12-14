@@ -24,7 +24,7 @@ spec:
         - fetch-repository
       params:
         - name: IMAGE
-          value: docker.io/mghodben/test95
+          value: mghodben/test95
         - name: IMAGE_PUSH_SECRET_NAME
           value: image-push-secrets
       workspaces:
